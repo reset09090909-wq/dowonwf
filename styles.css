@@ -1,0 +1,78 @@
+.logo{
+    height: 375px;
+}
+.small-icon{
+    width: 100px;
+    vertical-align: middle;
+}
+footer p{
+    font-size:35px;
+    color: #000000;
+    margin-top: 30px;
+    vertical-align: middle;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(45deg, #000000, #fbff00); */
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('황금나무.jpg');
+    background-size: cover;      /* 이미지가 화면을 빈틈없이 꽉 채우도록 확대/축소함 */
+    background-position: center; /* 이미지를 화면 정중앙에 배치 */
+    background-repeat: no-repeat; /* 이미지 반복을 금지해서 끊김 현상 제거 */
+    background-attachment: fixed; /* 스크롤을 내려도 배경은 고정되게 함 */
+}
+
+.container {
+    text-align: center;
+    width: 500px;
+    background: gold;
+    border-radius:20px;
+    padding:20px;
+    box-shadow: - 4px 8px rgba(0,0,0,0.2);
+}
+.profile h1{
+    font-size: 10pdx;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+link .link {
+    display:block;
+    text-decoration: none;
+    background-color: #d9ff00;
+    color: #FFFFFF;
+    padding: 15px 0;
+    margin : 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.links .link:hover {
+    background-color: #f0f0f0;
+    box-shadow: - 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.tip-s {
+    display:block;
+    text-decoration: none;
+    background-color: #fdf906;
+    color: #ffffff;
+    padding: 15px 0;
+    margin : 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.tip-s:hover {
+    background-color: #f0f0f0;
+    box-shadow: - 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
