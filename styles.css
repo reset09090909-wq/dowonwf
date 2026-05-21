@@ -2,7 +2,7 @@
     height: 375px;
 }
 .small-icon{
-    width: 100px;
+    width: 130px;
     vertical-align: middle;
 }
 footer p{
@@ -30,7 +30,7 @@ body, html {
 
 .container {
     text-align: center;
-    width: 500px;
+    width: 300px;
     background: gold;
     border-radius:20px;
     padding:20px;
